@@ -18,7 +18,7 @@ public class CalculatorTest {
 	@Test
 	public void multiply‚Å5‚Æ7‚ÌæZŒ‹‰Ê‚ªæ“¾‚Å‚«‚é() {
 		Calculator calc = new Calculator();
-		int expected = 12;
+		int expected = 35;
 		int actual = calc.multiply(5, 7);
 		assertThat(actual, is(expected));
 	}
